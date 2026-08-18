@@ -1,5 +1,4 @@
-const AI_IMAGE =
-  'https://lh3.googleusercontent.com/aida/AP1WRLvggigtJnN6VlWml92Ra4khoyu68W0lHs-loBWRfySWAM0CpcK7fYhT2cd8N0QHaBKXUkW6lnnPB1EMjBxx34UB8pBcJIr4Hb0jC1qhwpyU3eHaW-pDJ96K6vBVR0H1j5klJOGuBoZN_hzyLD9i-LDtEaFxf4fV4vtO2z9wj1-hCCAmAAALUzjXxshciMsFBw6YJgcTWOPS6iBEckNy086QfERNHdU7n1LOcuBd1o5UEKHcYUt-HRhW2WM'
+const AI_IMAGE = '/images/ai-scan-room.jpg'
 
 const ANALYSIS = [
   { label: 'SPACE:', value: 'ANALYZED', highlight: false },

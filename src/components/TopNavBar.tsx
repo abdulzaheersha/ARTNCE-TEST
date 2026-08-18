@@ -9,11 +9,11 @@ const NAV_LINKS = [
 export default function TopNavBar() {
   return (
     <nav className="bg-surface shadow-clay top-4 z-50 sticky max-w-[1400px] mx-auto rounded-full mb-8">
-      <div className="flex justify-between items-center w-full px-8 h-16 mx-auto">
+      <div className="flex justify-between items-center gap-6 w-full px-8 h-16 mx-auto">
         <a className="font-headline-lg text-[28px] tracking-tighter uppercase text-on-surface" href="#">
           ARTNCE
         </a>
-        <div className="hidden md:flex space-x-8 items-center h-full">
+        <div className="hidden lg:flex space-x-8 items-center h-full">
           {NAV_LINKS.map(({ label, active }) => (
             <a
               key={label}
@@ -28,7 +28,7 @@ export default function TopNavBar() {
             </a>
           ))}
         </div>
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 shrink-0">
           <a className="font-label-mono text-label-mono uppercase hover:underline" href="#">
             Log in
           </a>

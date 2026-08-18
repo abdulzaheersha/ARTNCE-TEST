@@ -1,5 +1,4 @@
-const BROWSE_IMAGE =
-  'https://lh3.googleusercontent.com/aida/AP1WRLsngje5RjkIXpStPRMocB7FpsPe0UJGy-SOmz5faFPYbR8SQvASptEgOocrnNvPps48Mo0vsXRgnlOibMXiV9VEQhVuTmeX8QSBGq2laGIt9HZNGTF2b8uYlbDIRJrKs6HJiZnf57XQqispOOBAZ9Rv55y4wz_Ain5hj-oi_1dxuJvj9QuJGVWGxVPydiPNE5ECXT-86cjDDqawLvoGl8ahnwp4iz37QT0MOTTpnhNjQcsCEd-Tx_E50w'
+const BROWSE_IMAGE = '/images/artwork-grid.jpg'
 
 const CATEGORIES = ['NATURE', 'OCEAN', 'SKY', 'ANIMALS', 'VILLAGE', 'ABSTRACT']
 

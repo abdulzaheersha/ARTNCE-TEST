@@ -1,5 +1,4 @@
-const HERO_IMAGE =
-  'https://lh3.googleusercontent.com/aida/AP1WRLtQNK8o9ySIhVxppPTaKbj7fA2M8nqbTRDehdNO5vn06eXiOlE4JZaJevMf1sHjVHjabbFEGrZf3t69EvsuFRDuJ4184lfenS6mTEbAc9nogNb3Wu-qCQKnWcxMz6OJ6xgIfaAjBkaPPWWyH6Ysl0By5eJM5zVGQFU8wyIGh6JPBC2VJaKDShYC-55f8JPjnUheWri3MXEjHJB1NSadvS0sIpAlsjPgOhWVIbTyh2lGIAjep9KpSLuiyT8'
+const HERO_IMAGE = '/images/hero-workspace.jpg'
 
 export default function Hero() {
   return (
