@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #fdf8f8;
+    color: #1c1b1b;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .grid-bg {
+    background-size: 44px 44px;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+      linear-gradient(to right, rgba(255, 255, 255, 0.8) 2px, transparent 2px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 2px, transparent 2px);
+    background-position:
+      0 0,
+      0 0,
+      1px 1px,
+      1px 1px;
+  }
+
+  .nav-link {
+    position: relative;
+  }
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #dc201e;
+    transition: width 0.3s ease;
+  }
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    width: 100%;
+  }
+
+  .btn-primary {
+    background-color: #fdf8f8;
+    color: #dc201e;
+    box-shadow:
+      6px 6px 12px rgba(0, 0, 0, 0.06),
+      -6px -6px 12px #ffffff;
+    transition: all 0.2s ease;
+    border-radius: 9999px;
+    font-weight: bold;
+  }
+  .btn-primary:active {
+    box-shadow:
+      inset 6px 6px 12px rgba(0, 0, 0, 0.06),
+      inset -6px -6px 12px #ffffff;
+  }
+
+  .btn-secondary {
+    background-color: #fdf8f8;
+    color: #1c1b1b;
+    box-shadow:
+      6px 6px 12px rgba(0, 0, 0, 0.06),
+      -6px -6px 12px #ffffff;
+    transition: all 0.2s ease;
+    border-radius: 9999px;
+  }
+  .btn-secondary:active {
+    box-shadow:
+      inset 6px 6px 12px rgba(0, 0, 0, 0.06),
+      inset -6px -6px 12px #ffffff;
+  }
+}
